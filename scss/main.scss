@@ -1,10 +1,11 @@
 @import "config";
+@import "menu";
 
 html {
   font-size: 10px;
 }
 body {
-  @include background;
+  @include background();
   background: $primary-color;
   color: #fff;
   height: 100%;
